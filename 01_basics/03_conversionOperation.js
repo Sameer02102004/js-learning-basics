@@ -29,13 +29,32 @@
 
 /*==========================================================================*/
 
-let someNumber = 33
-console.log(typeof someNumber);
+// let someNumber = 33
+// console.log(typeof someNumber);
 
-let stringNumber = String(someNumber)
-console.log(typeof stringNumber)
-console.log(stringNumber);
-;
+// let stringNumber = String(someNumber)
+// console.log(typeof stringNumber)
+// console.log(stringNumber);
+
+/*===========================================================================*/
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+
+let str1 = "hello"
+let str2 = " sameer"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2+"2");
+console.log(1 + "2" + 2);
+console.log("1" + 2 + "2");
+
+
+
 
 
 
