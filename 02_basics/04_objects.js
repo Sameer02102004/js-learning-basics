@@ -26,7 +26,20 @@ tinderUser.isLoggedIn = false
 // const obj3 = {...obj1 , ...obj2}
 // console.log(obj3);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
+/*============OBJECT DESTRUCTURING========================*/
 
+const user = {
+    name : "sameer",
+    age : 19,
+    email : "sameer@gmail.com"
+}
+// const {name  , age , email} = user
+// console.log(name);
+// console.log(age);
+// console.log(email);
+
+const {name : username , age , email} = user
+console.log(username);
